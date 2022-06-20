@@ -1,12 +1,12 @@
 package main
 
 import (
+	"example.com/user"
 	"github.com/gofiber/fiber/v2"
-	"github.com/shabbirdwd53/go-fiber-tutorial/user"
 )
 
 func hello(c *fiber.Ctx) error {
-	return c.SendString("Welcome to Daily Code Buffer!!")
+	return c.SendString("Welcome")
 }
 
 func Routers(app *fiber.App) {

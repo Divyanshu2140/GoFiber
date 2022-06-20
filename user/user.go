@@ -11,7 +11,7 @@ import (
 var DB *gorm.DB
 var err error
 
-const DNS = "root:admin@tcp(127.0.0.1:3306)/godb?charset=utf8mb4&parseTime=True&loc=Local"
+const DNS = "root:root@tcp(127.0.0.1:3306)/godb"
 
 type User struct {
 	gorm.Model
